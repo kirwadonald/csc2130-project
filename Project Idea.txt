@@ -1,0 +1,28 @@
+1. Project Title:
+
+Clinic Appointment System
+
+2. Purpose:
+
+The purpose of the Clinic Appointment System is to make it easier for patients to book appointments with healthcare providers without having to physically visit or call the clinic. It helps reduce long waiting times, prevents appointment conflicts, and allows clinic staff to manage patient appointments more efficiently.
+
+3. Target Users:
+
+- Patients – to register, view available appointment times, and book appointments.
+- Doctors/Healthcare Providers – to view and manage their appointments.
+- Receptionists/Clinic Staff – to manage patient bookings and schedules.
+- Clinic Administrator – to manage users, doctors, services, and the overall system.
+
+4. Main Features:
+
+1. Patient Registration and Login – Patients can create accounts and securely log into the system.
+2. Doctor Availability – Patients can view doctors and their available appointment times.
+3. Appointment Booking – Patients can select a doctor, date, and available time and book an appointment.
+4. Appointment Management – Patients and clinic staff can view, reschedule, or cancel appointments.
+5. Appointment Notifications – The system can notify patients about upcoming appointments.
+6. Doctor Dashboard – Doctors can view their scheduled appointments and patient information.
+7. Admin Dashboard – Administrators can manage doctors, patients, appointments, and clinic services.
+
+5. Why I Chose It:
+
+I chose this project because many clinics experience long queues, crowded reception areas, and difficulties managing appointments manually. A digital appointment system can make the process faster, more organized, and convenient for both patients and clinic staff. It also gives me an opportunity to apply my web development skills to solve a real-world problem.
