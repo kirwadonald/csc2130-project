@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Patient Registration</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Patient Registration</h1>
+        <p>Create your clinic account</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="login.html">Login</a>
+    </nav>
+
+    <main>
+
+        <section>
+            <h2>Register as a Patient</h2>
+
+            <form action="#" method="post">
+
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname"
+                       placeholder="Enter your full name"
+                       required minlength="3">
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email"
+                       placeholder="example@gmail.com"
+                       required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone"
+                       placeholder="0712345678"
+                       pattern="[0-9]{10}"
+                       title="Enter a 10-digit phone number"
+                       required>
+
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age"
+                       min="1" max="120"
+                       required>
+
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="">Select gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password"
+                       minlength="8"
+                       placeholder="Minimum 8 characters"
+                       required>
+
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password"
+                       name="confirm-password"
+                       minlength="8"
+                       required>
+
+                <button type="submit">Register</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Clinic Appointment System.</p>
+    </footer>
+
+</body>
+</html>
