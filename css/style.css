@@ -1,0 +1,203 @@
+
+/* GENERAL PAGE STYLING */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F3F8FA;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* HEADER */
+header {
+    background-color: #123B52;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+}
+
+header img {
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+/* NAVIGATION */
+nav {
+    background-color: #159E9A;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+    padding: 8px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #123B52;
+    border-radius: 5px;
+}
+
+/* MAIN CONTENT */
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+/* SECTIONS */
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+    color: #123B52;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #159E9A;
+    padding-bottom: 8px;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+aside {
+    background-color: #E5F5F4;
+    padding: 20px;
+    border-left: 5px solid #159E9A;
+    margin-top: 20px;
+}
+
+/* IMAGES */
+main img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* GALLERY */
+figure {
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+    vertical-align: top;
+}
+
+figure img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+figcaption {
+    text-align: center;
+    font-weight: bold;
+    color: #123B52;
+    padding: 8px;
+}
+
+/* TABLES */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #123B52;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #EAF4F5;
+}
+
+tfoot {
+    background-color: #D5EEEE;
+    font-weight: bold;
+}
+
+/* AUDIO AND VIDEO */
+audio, video {
+    max-width: 100%;
+    margin-top: 15px;
+}
+
+/* GOOGLE MAP */
+iframe {
+    max-width: 100%;
+    border: 0;
+    border-radius: 8px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #123B52;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer a {
+    color: #8DE3DF;
+}
+
+/* MOBILE RESPONSIVENESS */
+@media screen and (max-width: 768px) {
+
+    header h1 {
+        font-size: 23px;
+    }
+
+    nav a {
+        margin: 5px;
+    }
+
+    main {
+        width: 95%;
+    }
+
+    figure {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    table {
+        font-size: 13px;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+}
